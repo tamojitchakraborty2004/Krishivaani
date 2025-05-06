@@ -1,0 +1,8 @@
+Flask
+twilio
+vosk
+openai
+requests
+langdetect
+python-dotenv
+pydub

@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# IDE files
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+
+# Audio or model files (optional)
+*.wav
+*.mp3
+models/
+converted.wav
+temp.mp3
+
