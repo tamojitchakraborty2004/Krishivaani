@@ -6,3 +6,4 @@ requests
 langdetect
 python-dotenv
 pydub
+gunicorn
