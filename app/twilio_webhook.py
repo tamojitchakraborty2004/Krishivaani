@@ -14,6 +14,17 @@ LANGUAGE_MAP = {
     "3": "te"   # Telugu
 }
 
+@app.route('/')
+def index():
+    return "✅ KrishiVaani API is running!", 200
+
+
+@app.route('/health')
+def health():
+    return "OK", 200
+
+
+
 @app.route("/voice", methods=['POST'], strict_slashes=False)
 def voice():
     resp = VoiceResponse()
